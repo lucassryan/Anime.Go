@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo-site{
+    background-image: url(imagens/fundo-index.jpg);
+}
