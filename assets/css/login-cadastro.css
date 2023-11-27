@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/** BACKGROUND - PÁGINA DE LOGIN**/
+.fundo-login{
+    background:url(imagens/hero3.png);
+    width: 100%;
+    height: 100vh;
+    position:fixed;
+    background-size: cover;
+}
+
+.fundo-cadastro{
+    background:url(imagens/hero3.png);
+    width: 100%;
+    height: 100vh;
+    position:fixed;
+    background-size: cover;
+}
+
+/* NAVBAR - LOGO E LINKS */
+.navbar{
+    height: 30px;
+    padding:0.5px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    margin-left: 5em;
+    margin-top:2em;
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right:5em ;
+    margin-top: 3em;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: red;
+    transition: 1s;
+
+}
+
+/*** TELA LOGIN ***/
+
+#tela-login{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5em;
+    border-radius: 0.93em;
+    color: white;
+    width: 400px;
+ 
+}
+
+.titulo-login{
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.email-login{
+    font-family: 'Lato';
+    padding: 0.25em;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.senha-login{
+    font-family: 'Lato';
+    padding: 0.25em;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.input-tela-login{
+    padding: 0.93em;
+    border-radius: 0.62em;
+    border: 1px solid #A7A7A7;
+    outline: none;
+    font-size: 0.79em;
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.botao-tela-login{
+    background-color:#9d0b0b;
+    padding: 0.79em;
+    width: 100%;
+    border-radius: 0.62em;
+    color: white;
+    font-family: 'Boston', Arial, Helvetica, sans-serif ;
+    font-size: 0.93em;
+    font-weight: 550;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-tela-login:hover{
+    background-color: red;
+
+}
+
+hr{
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 0.087em;
+    background: #A7A7A7;
+    margin-bottom: 50px;
+}
+
+.inscrevase{
+    text-align: center;
+    color: #898383 ;
+    font-size: 0.89em;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+/** TELA CADASTRO **/
+#tela-cadastro{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    align-items: center;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.8em 8em;
+    border-radius: 0.93em;
+    color: white;  
+}
+
+.titulo-caixa-cadastro{
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.nome-completo{
+    font-family: 'Lato';
+    padding: 0.25em;
+    font-size: 0.79em;
+    font-weight: 550;
+}
+
+.nome-de-usuario{
+    font-family: 'Lato';
+    padding: 0.25em;
+    font-size: 0.79em;
+    font-weight: bold;
+}
+
+.email-usuário{
+    font-family: 'Lato';
+    padding: 0.25em;
+    font-size: 0.79em;
+    font-weight: bold;
+}
+
+/*** Senha e Input Senha ***/
+.senha-usuario{
+    font-family: 'Lato';
+    padding: 0.25em;
+    font-size: 0.79em;
+    font-weight: bold;
+}
+
+.data-nasc{
+    font-family: 'Lato';
+    padding: 0.25em;
+    font-size: 0.79em;
+    font-weight: bold;
+}
+
+.estado-usuario{
+    font-family: 'Lato';
+    padding: 0.25em;
+    font-size: 0.79em;
+    font-weight: bold;
+}
+
+.input-senha-cadastro{
+    padding: 0.93em;
+    border-radius: 0.62em;
+    border: 1px solid #A7A7A7;
+    outline: none;
+    font-size: 0.79em;
+    font-weight: bold;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    color: white;
+}
+
+.input-tela-cadastro{
+    padding: 0.93em;
+    border-radius: 0.62em;
+    border: 1px solid #A7A7A7;
+    outline: none;
+    font-size: 0.79em;
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.botao-tela-cadastro{
+    background-color:#9d0b0b;
+    padding: 0.79em;
+    width: 100%;
+    border-radius: 0.62em;
+    color: white;
+    font-family: 'Lato', Arial, Helvetica, sans-serif ;
+    font-size: 0.93em;
+    font-weight: 550;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-tela-cadastro:hover{
+    background-color: red;
+}
+
+.logar{
+    text-align: center;
+    color: #898383 ;
+    font-size: 0.89em;
+    font-family: 'Lato', sans-serif;
+    
+}
