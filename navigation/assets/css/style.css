@@ -79,12 +79,11 @@ button{
     border-radius: 20px;
 }
 
-/*  Fundo da pagina */
+/*  FUNDO PAGINA NARUTO */
 .fundo-naruto {
     font-family: Arial, sans-serif;
     background-color: #FF9900A3;
-    ;
-    
+    width: 100%;
 }
 
 .title {
@@ -94,7 +93,7 @@ button{
 }
 
 /*box de cima com imagem e texto*/
-.main-box {
+.main-box-naruto {
     border: 1px solid #EF8232;
     padding: 10px;
     margin-top: 10px;
@@ -108,9 +107,9 @@ button{
 }
 
 /*predefinicao da imagem da box*/
-.main-box img {
-    max-width: 30%;
-    height: auto;
+.main-box-naruto img {
+    width: 200px;
+    height: 300px;
     margin-right: 10px;
     float: left;
 }
@@ -132,15 +131,15 @@ button{
     margin-bottom: 10px;
 }
 /*fundo para cada div com seu personagem especifico*/
-.character-box-zoro {
+.character-box-sakura {
     background-color: #FF9E58;
 }
 
-.character-box-luffy {
+.character-box-naruto {
     background-color: #EF8232;
 }
 
-.character-box-usop {
+.character-box-sasuke {
     background-color: #FF9E58;
 }
 /*agora com base nessas acima é so criar um especifico pra cada personagem **/
