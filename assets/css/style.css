@@ -144,3 +144,72 @@ button{
     background-color: #153916;
 }
 /*agora com base nessas acima é so criar um especifico pra cada personagem **/
+
+/*  Fundo da pagina Dragon ball*/
+.fundo-dragon-ball {
+    font-family: Arial, sans-serif;
+    background-color: #0D4653;
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+/*box de cima com imagem e texto*/
+.main-box {
+    border: 1px solid #136172;
+    padding: 10px;
+    margin-top: 10px;
+    overflow: auto;
+    background-color:#136172;
+    color: whitesmoke;
+    font-size: 25px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*predefinicao da imagem da box*/
+.main-box img {
+    max-width: 30%;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+/*container para deixar as divs com as tres imagens alinhadas */
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+/*predefinicao das divs com as imagens dos personagens*/
+.character-box {
+    width: 18%;
+    text-align: center;
+    margin: 10px;
+}
+/*predefinicao das imagens dos personagens*/
+.character-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+/*fundo para cada div com seu personagem especifico*/
+.character-box-Piccolo {
+    background-color:#2694AD;
+    ;
+}
+
+.character-box-Goku {
+    background-color:#136172;
+    ;
+}
+
+.character-box-Gohan {
+    background-color:#2694AD;
+    ;
+    ;
+}
+/*agora com base nessas acima é so criar um especifico pra cada personagem **/
