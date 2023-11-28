@@ -167,7 +167,7 @@ button{
     background-color:#136172;
     color: whitesmoke;
     font-size: 25px;
-    width: 85%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -196,20 +196,5 @@ button{
     height: auto;
     margin-bottom: 10px;
 }
-/*fundo para cada div com seu personagem especifico*/
-.character-box-Piccolo {
-    background-color:#2694AD;
-    ;
-}
 
-.character-box-Goku {
-    background-color:#136172;
-    ;
-}
-
-.character-box-Gohan {
-    background-color:#2694AD;
-    ;
-    ;
-}
 /*agora com base nessas acima é so criar um especifico pra cada personagem **/
