@@ -8,7 +8,7 @@
     background:url(imagens/fundo-escuro.png);
     width: 100%;
     height: 100vh;
-    position:fixed;
+    position:relative;
     background-size: cover;
 }
 
@@ -83,7 +83,7 @@ button{
 .fundo-one-piece {
     font-family: Arial, sans-serif;
     background-color: #104a80;
-    height: 100vh;
+    
 }
 
 .title {
