@@ -79,6 +79,72 @@ button{
     border-radius: 20px;
 }
 
+/*  Fundo da pagina */
+.fundo-naruto {
+    font-family: Arial, sans-serif;
+    background-color: #FF9900A3;
+    ;
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+/*box de cima com imagem e texto*/
+.main-box {
+    border: 1px solid #EF8232;
+    padding: 10px;
+    margin-top: 10px;
+    overflow: auto;
+    background-color: #EF8232;
+    color: whitesmoke;
+    font-size: 25px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*predefinicao da imagem da box*/
+.main-box img {
+    max-width: 30%;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+/*container para deixar as divs com as tres imagens alinhadas */
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+/*predefinicao das divs com as imagens dos personagens*/
+.character-box {
+    width: 18%;
+    text-align: center;
+    margin: 10px;
+}
+/*predefinicao das imagens dos personagens*/
+.character-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+/*fundo para cada div com seu personagem especifico*/
+.character-box-zoro {
+    background-color: #FF9E58;
+}
+
+.character-box-luffy {
+    background-color: #EF8232;
+}
+
+.character-box-usop {
+    background-color: #FF9E58;
+}
+/*agora com base nessas acima é so criar um especifico pra cada personagem **/
+
 /*  FUNDO DA PAGINA ONE PIECE */
 .fundo-one-piece {
     font-family: Arial, sans-serif;
@@ -198,3 +264,4 @@ button{
 }
 
 /*agora com base nessas acima é so criar um especifico pra cada personagem **/
+ 
