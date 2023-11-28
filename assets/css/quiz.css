@@ -7,10 +7,10 @@
 
 
 body {
-    width: 100%;
-    height: 100vh;
-    background-image: url(imagens/imagem-naruto.png);
-    background-size: cover;
+   
+    
+    background-image: url(imagens/fundo-quiz4.jpg);
+    background-size:cover;
     color: #f3f3f3;
 }
 
@@ -106,7 +106,7 @@ h1 {
     border: 1px solid #ececec;
     border-radius: 20px;
     margin-bottom: 2rem;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     border-style: none;
 }
 
@@ -131,7 +131,7 @@ h1 {
 }
 
 #instrucoes {
-    background:  rgba(0, 0, 0, 0.5);
+    background:  rgba(0, 0, 0, 0.8);
     color: #ffffff;
     padding: 0.625rem;
     border-radius: 8px;

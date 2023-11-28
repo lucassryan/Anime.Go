@@ -30,7 +30,7 @@ const q0 = {
 
 const q1 = {
     numQuestao   : 1,
-    pergunta     : "Em que mar Luffy de nasceu? - One Piece.",
+    pergunta     : "Em que mar Luffy nasceu? - One Piece.",
     alternativaA : "Mar Azul",
     alternativaB : "Grand Line",
     alternativaC : "East Blue",

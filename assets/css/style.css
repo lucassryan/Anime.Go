@@ -79,11 +79,11 @@ button{
     border-radius: 20px;
 }
 
-/*  Fundo da pagina */
+/*  FUNDO DA PAGINA ONE PIECE */
 .fundo-one-piece {
     font-family: Arial, sans-serif;
     background-color: #104a80;
-    
+
 }
 
 .title {
@@ -95,7 +95,7 @@ button{
 /*box de cima com imagem e texto*/
 .main-box {
     border: 1px solid #2971b5;
-    padding: 10px;
+    padding: 11px;
     margin-top: 10px;
     overflow: auto;
     background-color: #2971b5;
@@ -104,6 +104,7 @@ button{
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+    font-family:'Lato', sans-serif; 
 }
 
 /*predefinicao da imagem da box*/
