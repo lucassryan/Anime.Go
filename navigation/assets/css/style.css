@@ -158,7 +158,7 @@ button{
 }
 
 /*box de cima com imagem e texto*/
-.main-box {
+.main-box-onepiece {
     border: 1px solid #2971b5;
     padding: 11px;
     margin-top: 10px;
@@ -173,7 +173,7 @@ button{
 }
 
 /*predefinicao da imagem da box*/
-.main-box img {
+.main-box-onepiece img {
     max-width: 30%;
     height: auto;
     margin-right: 10px;
