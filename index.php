@@ -48,7 +48,7 @@
             <hr>
 
             <div class="inscrevase">
-                <p>Não tem uma conta? <a style="color: white;" href="navigation/cadastro.html"> Inscrever-se no Anime.Go</a> </p>
+                <p>Não tem uma conta? <a style="color: white;" href="navigation/cadastro.php"> Inscrever-se no Anime.Go</a> </p>
             </div>
 
         </form>
