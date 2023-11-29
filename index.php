@@ -1,10 +1,43 @@
-<?php 
-    if($_SERVER["REQUEST_METHOD"] == "POST")
+<?php
+
+if($_SERVER["REQUEST_METHOD"] == "GET")
+{
+    if(!empty($_GET["email"]) && !empty($_GET["senha"]))
     {
-        $email = $_POST["email"];
-        $senha = $_POST["senha"];
-        echo "Test: ".$email." Pass: ".$senha;
+        $email = $_GET["email"];
+        $senha = $_GET["senha"];
+
+        $hostname = "localhost";
+        $database = "db_animego";
+        $password = ""; 
+        $user = "root";
+
+        $conexao = new mysqli($hostname, $user, $password, $database);
+
+        $sqlVerificarSeExiste = mysqli_query($conexao, "SELECT username FROM users WHERE email LIKE '".$email."' AND senha lIKE '".$senha."'");
+
+        if(!mysqli_num_rows($sqlVerificarSeExiste))
+        {
+            die("Senha ou e-mail inválidos.");
+        }
+        else
+        {
+            header("Location: home.html");
+            exit();
+        }
+
+        if($conexao->connect_error)
+        {
+            die("Conexão falhou...");
+        }
+
     }
+}
+else
+{
+    echo "Invalid method";
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -29,10 +62,10 @@
 
     <div id="navbar">
 
-        <div class="titulo-navbar"><h1>GitMusic</h1></div>
+        <div class="titulo-navbar"><h1>Anime.Go</h1></div>
         
         <ul type="none" >
-            <li class="inscrevase-navbar"><a style="color: white; text-decoration: none;" href="cadastro.php">Inscreva-se</a></li>
+            <li class="inscrevase-navbar"><a style="color: white; text-decoration: none;" href="cadastro.html">Inscreva-se</a></li>
         </ul>
 
     </div>
@@ -41,7 +74,7 @@
 
         <form action="">
 
-            <h1 class="titulo-login">Entrar no GitMusic</h1>
+            <h1 class="titulo-login">Entrar no Anime.Go</h1>
             <br>
 
             <div class="email-login">E-mail </div>
@@ -52,12 +85,12 @@
                 <input class="input-tela-login" type="password" id="senha" name="senha" placeholder="Senha">
                 <br><br>
 
-            <input class="botao-tela-login" type="submit" ></input>
+            <input class="botao-tela-login" type="submit" value="enviar" ></input>
             <br><br>
             <hr>
 
             <div class="inscrevase">
-                <p>Não tem uma conta? <a style="color: white;" href="cadastro.php"> Inscrever-se no GitMusic</a> </p>
+                <p>Não tem uma conta? <a style="color: white;" href="cadastro.php"> Inscrever-se no Anime.Go</a> </p>
             </div>
 
         </form>
