@@ -39,15 +39,15 @@ if(!empty($_GET["nome"]) && !empty($_GET["nome_usuario"]) && !empty($_GET["email
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/login-cadastro.css">
+    <link rel="stylesheet" href="navigation/assets/css/login-cadastro.css">
     <title>Cadastro - Anime.Go</title>
 </head>
 <body>
     <div class="fundo-cadastro">
         <div class="navbar">
-            <div class="logo"><img src="assets/css/imagens/anime-logo.png" alt=""></div>
+            <div class="logo"><img src="navigation/assets/css/imagens/anime-logo.png" alt=""></div>
             <ul>
-                <li><a href="./index.html">Login</a></li>
+                <li><a href="../index.html">Login</a></li>
                 <li><a href="cadastro.php">Inscreva-se</a></li>
                 
         </div>
@@ -86,7 +86,7 @@ if(!empty($_GET["nome"]) && !empty($_GET["nome_usuario"]) && !empty($_GET["email
             <hr>
     
             <div class="logar">
-                <p>Já tem uma conta? <a style="color: white;" href="index.html"> Entrar no Anime.Go</a> </p>
+                <p>Já tem uma conta? <a style="color: white;" href="../index.html"> Entrar no Anime.Go</a> </p>
             </div>
     
     
