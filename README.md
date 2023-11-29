@@ -12,11 +12,12 @@ Trabalho de Desenvolvimento Web para faculdade (2° semestre). A princípio irí
 
 * ### Melhorias futuras:
   1. Retirar os animes da pagina inicial.
-  2. Criar uma barra de buscar para que o usuário possa procurar o anime desejado e ver sobre   a sinopse do mesmo(Utilizando uma API).
+  2. Criar uma barra de buscar para que o usuário possa procurar o anime desejado e ver sobre a sinopse do mesmo(Utilizando uma API).
   3. Aumentar as perguntas do quiz e criar quizzes com níveis de dificuldade (Fácil,Intermediário e Avançado).
 
 ## Tecnologias Utilizadas:
-  Por enquanto o projeto conta com HTML, CSS e JavaScript puro, com JavaScrip no Quiz de Animes. 
+  Por enquanto o projeto conta com HTML, CSS e JavaScript puro, com JavaScrip no Quiz de Animes. Utilizamos também PHP, Wamp e o Xamp(compiladores do PHP) para ligarmos o banco de dados mySql com o formulário
+  HTML. 
 
 ## Desenvolvedores:
 Lucas Ryan Rodrigues Barbosa - 202303181493   
