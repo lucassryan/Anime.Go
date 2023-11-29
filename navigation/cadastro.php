@@ -1,3 +1,36 @@
+<?php
+
+if(!empty($_GET["nome"]) && !empty($_GET["nome_usuario"]) && !empty($_GET["email"]) && !empty($_GET["senha"]) && !empty($_GET["data_nascimento"]))
+{
+    $nome_completo = $_GET["nome"];
+    $nome_usuario = $_GET["nome_usuario"];
+    $email = $_GET["email"];
+    $senha = $_GET["senha"];
+    $data_nascimento = $_GET["data_nascimento"];
+    $estado = $_GET["estado"];
+
+    $hostname = "localhost";
+    $database = "db_animego";
+    $password = ""; 
+    $user = "root";
+
+    $conexao = new mysqli($hostname, $user, $password, $database);
+
+    $query = sprintf("INSERT INTO users (username, fullname, email, senha, data_nascimento, estado) VALUES ('%s','%s','%s','%s','%s','%s')",
+    $conexao->real_escape_string($nome_usuario),
+    $conexao->real_escape_string($nome_completo),
+    $conexao->real_escape_string($email),
+    $conexao->real_escape_string($senha),
+    $conexao->real_escape_string($data_nascimento),
+    $conexao->real_escape_string($estado)
+);
+    $res = mysqli_query($conexao, $query);
+}
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,18 +48,18 @@
             <div class="logo"><img src="assets/css/imagens/anime-logo.png" alt=""></div>
             <ul>
                 <li><a href="index.html">Login</a></li>
-                <li><a href="cadastro.html">Inscreva-se</a></li>
+                <li><a href="cadastro.php">Inscreva-se</a></li>
                 
         </div>
     </div>
 
     <div id="tela-cadastro">
 
-        <div class="titulo-caixa-cadastro"><h1>Cadastro GitMusic</h1></div><br>
+        <div class="titulo-caixa-cadastro"><h1>Cadastro Anime.Go</h1></div><br>
         
-        <form action="cadastro.php">
+        <form>
             <div class="nome-completo">Nome Completo</div>
-                <input class="input-tela-cadastro" type="text" name="nome" placeholder="Nome completo" required> 
+                <input class="input-tela-cadastro" type="text" id= "nome" name="nome" placeholder="Nome completo" required> 
                 <br><br>
 
             <div class="nome-de-usuario">Nome de Usuário</div>
