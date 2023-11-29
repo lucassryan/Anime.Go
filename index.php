@@ -14,7 +14,7 @@
         <div class="navbar">
             <div class="logo"><img src="assets/css/imagens/anime-logo.png" alt=""></div>
             <ul>
-                <li><a href="navigation/cadastro.html">Inscreva-se</a></li>  
+                <li><a href="navigation/cadastro.php">Inscreva-se</a></li>  
         </div>
     </div>
 
