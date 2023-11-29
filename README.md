@@ -19,11 +19,16 @@ Trabalho de Desenvolvimento Web para faculdade (2° semestre). A princípio irí
   Por enquanto o projeto conta com HTML, CSS e JavaScript puro, com JavaScrip no Quiz de Animes. 
 
 ## Desenvolvedores:
-Lucas Ryan Rodrigues Barbosa - 202303181493
-Eduardo Bello - 202303413572
-Lucas guilherme Silva - 202303886241
-Gustavo Marichi Rosendo - 202303579292
-João Mateus Firmino Rodrigues - 202303962525
+Lucas Ryan Rodrigues Barbosa - 202303181493   
+
+Eduardo Bello - 202303413572  
+
+Lucas guilherme Silva - 202303886241  
+
+Gustavo Marichi Rosendo - 202303579292  
+
+João Mateus Firmino Rodrigues - 202303962525  
+
 Guilherme Itani - 202304066401
 
 
