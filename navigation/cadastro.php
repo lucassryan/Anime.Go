@@ -1,3 +1,23 @@
+<?php 
+
+    if($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+        $nome_completo = $_POST["nome"];
+        $nome_usuario = $_POST["nome_usuario"];
+        $email = $_POST["email"];
+        $senha = $_POST["senha"];
+        $data_nascimento = $_POST["data_nascimento"];
+        $estado = $_POST["estado"];
+
+        echo "Test: ". $nome_completo ."<br>";
+    }
+    else
+    {
+        echo "No valid method";
+    }
+    
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -14,8 +34,8 @@
         <div class="navbar">
             <div class="logo"><img src="assets/css/imagens/anime-logo.png" alt=""></div>
             <ul>
-                <li><a href="index.html">Login</a></li>
-                <li><a href="cadastro.html">Inscreva-se</a></li>
+                <li><a href="index.php">Login</a></li>
+                <li><a href="cadastro.php">Inscreva-se</a></li>
                 
         </div>
     </div>
@@ -24,9 +44,9 @@
 
         <div class="titulo-caixa-cadastro"><h1>Cadastro GitMusic</h1></div><br>
         
-        <form>
+        <form method="post">
             <div class="nome-completo">Nome Completo</div>
-                <input class="input-tela-cadastro" type="text" name="nome" placeholder="Nome completo" required> 
+                <input class="input-tela-cadastro" type="text" name="nome" id="nome" placeholder="Nome completo" required> 
                 <br><br>
 
             <div class="nome-de-usuario">Nome de Usuário</div>
@@ -42,7 +62,7 @@
             
             <div class="data-nasc" >
                 Data de Nascimento: 
-                <input type="date" name="data_nascimento" name="data_nascimento" required>   
+                <input type="date" name="data_nascimento" name="data_nascimento" id="data_nascimento" required>   
             </div> <br>
 
             <div class="estado-usuario">Estado <br></div>
@@ -53,7 +73,7 @@
             <hr>
     
             <div class="logar">
-                <p>Já tem uma conta? <a style="color: white;" href="index.html"> Entrar no Anime.Go</a> </p>
+                <p>Já tem uma conta? <a style="color: white;" href="index.php"> Entrar no Anime.Go</a> </p>
             </div>
     
     

@@ -1,3 +1,12 @@
+<?php 
+    if($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+        $email = $_POST["email"];
+        $senha = $_POST["senha"];
+        echo "Test: ".$email." Pass: ".$senha;
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -14,7 +23,7 @@
         <div class="navbar">
             <div class="logo"><img src="assets/css/imagens/anime-logo.png" alt=""></div>
             <ul>
-                <li><a href="cadastro.html">Inscreva-se</a></li>  
+                <li><a href="cadastro.php">Inscreva-se</a></li>  
         </div>
     </div>
 
@@ -23,7 +32,7 @@
         <div class="titulo-navbar"><h1>GitMusic</h1></div>
         
         <ul type="none" >
-            <li class="inscrevase-navbar"><a style="color: white; text-decoration: none;" href="cadastro.html">Inscreva-se</a></li>
+            <li class="inscrevase-navbar"><a style="color: white; text-decoration: none;" href="cadastro.php">Inscreva-se</a></li>
         </ul>
 
     </div>
@@ -48,7 +57,7 @@
             <hr>
 
             <div class="inscrevase">
-                <p>Não tem uma conta? <a style="color: white;" href="cadastro.html"> Inscrever-se no GitMusic</a> </p>
+                <p>Não tem uma conta? <a style="color: white;" href="cadastro.php"> Inscrever-se no GitMusic</a> </p>
             </div>
 
         </form>
