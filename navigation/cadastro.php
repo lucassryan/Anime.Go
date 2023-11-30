@@ -25,6 +25,7 @@ if(!empty($_GET["nome"]) && !empty($_GET["nome_usuario"]) && !empty($_GET["email
     $conexao->real_escape_string($estado)
 );
     $res = mysqli_query($conexao, $query);
+    header("Location: ../index.php");
 }
 
 
@@ -81,7 +82,7 @@ if(!empty($_GET["nome"]) && !empty($_GET["nome_usuario"]) && !empty($_GET["email
             <div class="estado-usuario">Estado <br></div>
                 <input class="input-senha-cadastro" type="text" id="estado" name="estado" placeholder="Estado" required><br><br>
             
-            <input class="botao-tela-cadastro" type="submit" name="submit" id="submit" href="home.html">
+            <input class="botao-tela-cadastro" type="submit" name="submit" id="submit" href="../index.php">
             <br>
             <hr>
     
