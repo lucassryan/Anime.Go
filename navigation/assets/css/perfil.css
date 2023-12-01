@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mb-3{
+    color: white;
+}
+
+.fundo-perfil{
+   background-image: url(imagens/hero3.png);
+   background-size: cover;
+   height: 100vh;
+}
+
+input{
+    width: 250px;
+    background: rgba(0, 0, 0, 1);
+    border-style:none ;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.box-forms{
+    background-color:  rgba(0, 0, 0, 0.5);
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.8em 8em;
+    border-radius: 12px;
+}
+
+form{
+    text-align: justify;
+}
+
+.cor-delete{
+    background-color: red;
+    width: 68px;
+    height: 38px;
+    border-radius: 7px;
+    color: white;
+    border-style: none;
+}
+
+.box-forms2{
+    background-color:  rgba(0, 0, 0, 0.5);
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.8em 8em;
+    border-radius: 12px;
+}
+
+
+
+/* NAVBAR - LOGO E LINKS */
+.navbar{
+    height: 1px;
+    padding:0.5px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    margin-left: 5em;
+    
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right:5em ;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: red;
+    transition: 1s;
+
+}
