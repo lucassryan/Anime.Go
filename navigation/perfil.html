@@ -26,28 +26,22 @@
           <form action="editar-perfil.php">
             <h1 class="mb-3">Meu Perfil</h1>
               <div class="mb-3">
-                  <label>Nome: <?php echo $nome_completo ?></label>
-                  <input type="text" name="nome"  id="nome">
+                  <label><b>Nome: </b><?php echo $nome_completo ?></label>
               </div>
               <div class="mb-3">
-                  <label>Email: <?php echo $email ?></label>
-                  <input type="text" name="email" id="email">
+                  <label><b>Email: </b><?php echo $email ?></label>
               </div>
               <div class="mb-3">
-                  <label>Usuário: <?php echo $nome_usuario ?></label>
-                  <input type="text" name="user" id="user">
+                  <label><b>Usuário: </b><?php echo $nome_usuario ?></label>
               </div>
               <div class="mb-3">
-                  <label>Senha: <?php echo $senha ?></label>
-                  <input type="password" name="senha" id="senha">
+                  <label><b>Senha: </b><?php echo $senha ?></label>
               </div>
               <div class="mb-3">
-                  <label>Data de Nascimento: <?php echo $data_nascimento ?> </label>
-                  <input type="date" name="nascimento" id="nascimento">
+                  <label><b>Data de Nascimento: </b><?php echo $data_nascimento ?> </label>
               </div>
               <div class="mb-3">
-                  <label>Estado: <?php echo $estado ?></label>
-                  <input type="text" id="estado" name='estado'>
+                  <label><b>Estado: </b><?php echo $estado ?></label>
               </div>
               <div class="mb-3">
                   <button type="submit" id="edit" name="edit" class="btn btn-primary">Editar</button>
